@@ -24,5 +24,6 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px;
-  margin-left: 330px;
+  margin-left: auto;
+  /* NOTE: When you write margin-left: auto; in CSS, the auto value tells the browser to automatically calculate the margin so that the element is pushed as far as possible in the opposite direction.*/
 }
