@@ -30,8 +30,10 @@ body {
   padding: 8px;
 }
 
-s button {
+
+button {
   background: white;
   padding: 8px 24px;
   display: block;
+  margin: 0 auto;
 }
