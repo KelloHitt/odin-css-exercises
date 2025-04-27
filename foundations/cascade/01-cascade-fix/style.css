@@ -9,7 +9,7 @@ body {
 
 .small-para {
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 1000;
 }
 
 .para {
@@ -23,7 +23,8 @@ body {
   font-weight: bold;
 }
 
-/* Removed background-color: white; and color: black; as these are default values for the properties, no need to explicitly include them */
+/* Removed background-color: white; and color: black; as these are default values for the properties, no need to explicitly include them, 
+the class button comes before confirm in html file so it seems that the class declared first overrides the style of the second class css*/
 .button {
   font-size: 20px;
 }
@@ -37,5 +38,5 @@ body {
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 600;
 }
