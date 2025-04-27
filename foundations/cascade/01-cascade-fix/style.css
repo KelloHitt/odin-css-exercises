@@ -5,7 +5,6 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
 }
 
 .small-para {
@@ -15,17 +14,17 @@ body {
 
 .para {
   font-size: 22px;
+  font-weight: 1000;
 }
 
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
+/* Removed background-color: white; and color: black; as these are default values for the properties, no need to explicitly include them */
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 

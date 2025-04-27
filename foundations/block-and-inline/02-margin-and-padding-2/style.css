@@ -30,6 +30,11 @@ body {
   padding: 8px;
 }
 
+/* display block changes the element's display type to block meaning it takes up the whole width of its parent container (unless you set a width)
+and it starts on a new line, no other elements sit next to it */
+
+/* margin: auto 0; means that margin-top: auto; margin-bottom: auto; margin-right: 0; margin-left: 0; so the auto for top and bottom margins means
+that the browser tries to push the element vertically (center it vertically inside a parent that has a height) and 0 means no margin left or right */
 
 button {
   background: white;
