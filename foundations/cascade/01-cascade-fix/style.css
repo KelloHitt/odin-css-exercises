@@ -5,6 +5,8 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
+
+
 }
 
 
@@ -15,7 +17,6 @@ body {
 
 .small-para {
   font-size: 14px;
-  font-weight: 1000;
 }
 
 .confirm {
