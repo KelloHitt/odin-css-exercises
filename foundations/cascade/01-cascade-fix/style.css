@@ -2,6 +2,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+}
+
 
 .para {
   font-size: 22px;
@@ -10,6 +15,7 @@ body {
 
 .small-para {
   font-size: 14px;
+  font-weight: 1000;
 }
 
 .confirm {
@@ -24,18 +30,19 @@ the class button comes before confirm in html file so it seems that the class de
   font-size: 20px;
 }
 
-/*  div.text.child is more specific than just .child, and also more specific than div.text. So it overrides the font-size set in div.text */
-div.text.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 18px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
 
 }
+
+/*  div.text.child is more specific than just .child, and also more specific than div.text. So it overrides the font-size set in div.text */
+div.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
 
 /* 
 ### CSS Specificity ###
@@ -51,5 +58,11 @@ div → 0001
 div.btn.active → 0021
 
 div.btn#header → 0111
+
+
+Important takeways:
+- rule order matters (i.e which selector comes first) when two selectors have the same specificity
+- chaining selectors are given more control over to the element with the specific specifity as it results in a higher specificity
+
 
 */
