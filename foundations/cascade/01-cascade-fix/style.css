@@ -7,13 +7,14 @@ body {
   color: hsl(0, 0%, 0%);
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 1000;
-}
 
 .para {
   font-size: 22px;
+  font-weight: 1000;
+}
+
+.small-para {
+  font-size: 14px;
   font-weight: 1000;
 }
 
@@ -29,6 +30,7 @@ the class button comes before confirm in html file so it seems that the class de
   font-size: 20px;
 }
 
+/*  div.text.child is more specific than just .child, and also more specific than div.text. So it overrides the font-size set in div.text */
 div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
@@ -40,3 +42,20 @@ div.text {
   font-size: 22px;
 
 }
+
+/* 
+### CSS Specificity ###
+
+Example Scores:
+
+div → 0001
+
+.btn → 0010
+
+#header → 0100
+
+div.btn.active → 0021
+
+div.btn#header → 0111
+
+*/
