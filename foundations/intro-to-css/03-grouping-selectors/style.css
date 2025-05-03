@@ -5,6 +5,13 @@
 
 }
 
-.unique1 {}
+.unique1 {
+    background-color: black;
+    color: white;
+}
 
-.unique2 {}
+.unique2 {
+    background-color: yellow;
+    color: yellow;
+
+}
