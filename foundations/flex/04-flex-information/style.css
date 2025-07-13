@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +11,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
 }
 
 /* do not edit this footer */
@@ -34,13 +34,13 @@ img {
 }
 
 .item {
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* Review this! */
+  /* display: flex; this makes the text placed to the right of the image due to
+  the flex layout as the flex layout is based on “flex-flow directions”.*/
+  max-width: 200px;
+
+  /* flex-wrap: wrap; just do text-align: center; in the body */
 }
 
-.text {
-  text-align: center;
-}
+/* .text {
+  text-align: center; just do text-align: center; in the body 
+} */
