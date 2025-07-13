@@ -25,3 +25,8 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.plants {
+  display: flex;
+  margin-top: 32px;
+}
