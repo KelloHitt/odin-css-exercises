@@ -29,4 +29,5 @@ img {
 .plants {
   display: flex;
   margin-top: 32px;
+  gap: 32px;
 }
