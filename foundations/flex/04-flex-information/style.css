@@ -29,7 +29,7 @@ img {
 .plants {
   display: flex;
   margin-top: 32px;
-  gap: 32px;
+  gap: 52px;
   justify-content: center;
 }
 
