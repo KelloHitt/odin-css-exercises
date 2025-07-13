@@ -79,3 +79,7 @@ button.cancel {
   border: 3px solid salmon;
   padding: 4px;
 }
+
+.header {
+  font-weight: bold;
+}
