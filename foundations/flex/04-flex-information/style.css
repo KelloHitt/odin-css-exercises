@@ -42,3 +42,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.text {
+  text-align: center;
+}
