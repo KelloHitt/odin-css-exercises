@@ -28,3 +28,9 @@ input {
 li {
   list-style-type: none;
 }
+
+.header {
+  border: 4px solid red;
+  display: flex;
+  justify-content: space-between;
+}
