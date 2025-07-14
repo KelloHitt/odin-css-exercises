@@ -39,11 +39,12 @@ li {
 
 .left-links,
 .right-links {
-  border: 4px solid blue;
   display: flex;
-  justify-content: space-between;
+  padding: 0px;
+  gap: 20px;
 }
 
-li {
-  border: 4px solid green;
+.footer {
+  align-self: flex-end;
+  background-color: #eeeeee;
 }
