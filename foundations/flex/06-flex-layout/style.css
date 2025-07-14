@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  align-self: center;
 }
 
 button {
@@ -47,4 +48,21 @@ li {
 .footer {
   align-self: flex-end;
   background-color: #eeeeee;
+}
+
+.content {
+  border: 4px solid green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+  border: 4px solid yellow;
+  align-self: center;
+}
+
+.input {
+  align-self: center;
+
 }
