@@ -3,7 +3,6 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 0px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
@@ -26,7 +25,7 @@ button {
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 8px 24px;
+  padding: 6px 24px;
   width: 400px;
 }
 
@@ -43,15 +42,15 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 14px;
+  padding: 0px 12px;
 }
 
 
-.left-links,
-.right-links {
+ul {
   display: flex;
-  padding: 0px;
+  justify-content: space-between;
   gap: 20px;
+  padding: 0px;
 }
 
 .footer {
