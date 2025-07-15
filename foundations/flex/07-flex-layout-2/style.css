@@ -56,6 +56,7 @@ a {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 
@@ -72,4 +73,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
   width: 300px;
+  padding: 15px;
 }
