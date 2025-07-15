@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
@@ -19,7 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 18px;
 }
 
 input {
@@ -35,13 +36,14 @@ li {
 
 a {
   text-decoration: none;
+  color: rgb(86, 86, 86);
 }
 
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
+  padding: 14px;
 }
 
 
@@ -63,16 +65,8 @@ a {
 .content {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
   flex: 1;
-}
-
-.input {
-  align-self: center;
-}
-
-.buttons {
-  align-self: center;
-
 }
