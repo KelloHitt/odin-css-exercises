@@ -38,6 +38,22 @@ body {
   flex-shrink: 0;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+
+a {
+  size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
