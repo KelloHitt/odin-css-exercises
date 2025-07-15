@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .header {
@@ -33,15 +34,17 @@ body {
 
 ul {
   list-style-type: none;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  padding: 0;
+  margin: 0;
 
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a {
-  size: 24px;
+  font-size: 24px;
   color: white;
   text-decoration: none;
 }
@@ -63,7 +66,7 @@ a {
 .cards-container {
   display: flex;
   padding: 48px;
-  gap: 15px;
+  gap: 30px;
   flex-wrap: wrap;
   flex-direction: row;
 }
